@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/tabbik-docs/",
   title: "Tabbik Docs",
   description: "Learn how to use Tabbik API",
   themeConfig: {
