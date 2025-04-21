@@ -4,6 +4,14 @@
 
 GET `/api/v1/tournaments/`
 
+### Query parameters
+
+```
+isActive: boolean
+title: string
+owner: number // id of the user, who organized the tournament
+```
+
 ### Response
 
 200

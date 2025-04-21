@@ -11,12 +11,16 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "API Documentation",
+        text: "Common",
         items: [
           { text: "Base", link: "index.md#base" },
           {
             text: "Authentication setup",
             link: "index.md#authentication-setup",
+          },
+          {
+            text: "Pagination",
+            link: "pagination.md",
           },
         ],
       },
