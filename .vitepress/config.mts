@@ -41,6 +41,20 @@ export default defineConfig({
               },
             ],
           },
+          {
+            text: "Tournaments",
+            link: "tournaments.md",
+            items: [
+              {
+                text: "Get tournaments list",
+                link: "tournaments.md#get-tournaments-list",
+              },
+              {
+                text: "Create a new tournament",
+                link: "tournaments.md#create-a-new-tournament",
+              },
+            ],
+          },
         ],
       },
     ],
