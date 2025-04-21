@@ -28,4 +28,4 @@ Example
 
 GET `/api/v1/tournaments?page=1&size=10`
 
-`size` is not required, the default is `10`.
+`size` is not required, default is `10` and max is `30`.

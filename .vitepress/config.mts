@@ -37,11 +37,15 @@ export default defineConfig({
             items: [
               {
                 text: "Get current user data",
-                link: "users/users-me.md#get-current-user-data",
+                link: "users.md#get-current-user-data",
               },
               {
                 text: "Update current user data",
-                link: "users/users-me.md#update-current-user-data",
+                link: "users.md#update-current-user-data",
+              },
+              {
+                text: "Get all users list",
+                link: "users.md#get-all-users-list",
               },
             ],
           },

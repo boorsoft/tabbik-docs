@@ -44,3 +44,47 @@ Patch `/api/v1/users/me`
 ::: tip
 You can pass only updated fields.
 :::
+
+# Get all users list
+
+GET `/api/v1/users/`
+
+Query parameters
+
+```
+search?: string
+```
+
+Example
+
+GET `/api/v1/users?search=tabbist`
+
+### Response
+
+```json
+{
+  "success": true,
+  "message": "",
+  "error": null,
+  "data": [
+    {
+      "username": "tabbist",
+      "email": "tabbist@gmail.com",
+      "avatar": "url",
+      "firstName": "John",
+      "lastName": "Doe",
+      "role": "USER",
+      "isNovice": false,
+      "createdAt": "date",
+      "updatedAt": "date"
+    },
+    ...
+  ],
+  "pagination": {
+    "page": number,
+    "size": number,
+    "totalData": number,
+    "totalPages": number
+  }
+}
+```
